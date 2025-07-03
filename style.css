@@ -760,7 +760,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    row-gap: 7%;
+    row-gap: 0%;
     margin-top: -2.5vw;
     margin-right: 0.25vw;
 }
@@ -772,10 +772,11 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    row-gap: 1.75%;
+    row-gap: 0%;
     margin-top: -2.5vw;
     margin-right: 0.25vw;
 }
+
 
 
 /* animations */
