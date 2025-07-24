@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bin Activator - RAP Engineers</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./assets/images/rap_logo.webp">
+  <link rel="preload" href="./assets/model/bin_activator.glb" as="fetch" crossorigin="anonymous" />
+
+</head>
+
+<body>
+
+  <div class="holder-container">
+    <div class="holder">
+      <div class="white-bg"></div>
+      <div class="black" style="border: white;"></div>
+      <div class="white"></div>
+    </div>
+    <div class="round">
+      <div class="round-inner numb-1" id="numberChanger">
+        <div class="round-inner2">
+          <div class="blue-circle">
+            <div class="number n-1 mplusRound">01</div>
+            <div class="number n-2 mplusRound">02</div>
+            <div class="number n-3 mplusRound">03</div>
+            <div class="number n-4 mplusRound">04</div>
+            <div class="number n-5 mplusRound">05</div>
+            <div class="number n-6 mplusRound">06</div>
+            <div class="number n-7 mplusRound">07</div>
+          </div>
+        </div>
+        <div class="round-inner-cover">
+          <div class="small-round"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="navbar">
+    <div class="nav-logo">
+      <img src="./assets/images/rap_logo.webp" alt="navbar logo">
+    </div>
+
+    <select name="navDropdown" id="navDropdown">
+      <option value="home" data-index="1">Home</option>
+      <option value="about" data-index="2">About</option>
+      <option value="features" data-index="3">Features</option>
+      <option value="applications" data-index="4">Applications</option>
+      <option value="principle operations" data-index="5">Principle Operations</option>
+      <option value="dimensions" data-index="6">Dimensions</option>
+      <option value="model view" data-index="7">Model View</option>
+      <option value="flow types" data-index="8">Flow Types</option>
+      <option value="flow types" data-index="9" style="display: none;">Flow Types<</option>
+    </select>
+  </div>
+
+  <!-- Fixed sections overlay -->
+  <div class="sections">
+
+    <!-- section one -->
+    <section class="section" id="sec1">
+      <div class="sec-1-container">
+        <div class="sec-1-flex-row">
+
+          <div class="sec-1-device-left">
+            <img src="./assets/images/bin-product.webp" alt="product image" loading="eager">
+          </div>
+
+          <div class="sec-1-header">
+            <div class="sec-1-bin open-sans">BIN</div>
+            <div class="sec-1-activator open-sans">ACTIVATOR</div>
+          </div>
+
+          <div class="sec-1-device-right">
+            <img src="./assets/images/bin-product.webp" alt="product image" loading="eager">
+          </div>
+        </div>
+
+        <div class="sec-1-subtitle sensation">OTHER COMMON NAMES</div>
+
+        <div class="sec-1-buttons">
+          <button class="sec-1-button mplusRound">
+            <div class="square"></div>
+            <p>Vibrating bottom </p>
+          </button>
+          <button class="sec-1-button mplusRound">
+            <div class="square"></div>
+            <p>Bin discharger </p>
+          </button>
+          <button class="sec-1-button mplusRound">
+            <div class="square"></div>
+            <p>Bin vibrator </p>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- section 2 -->
+    <section class="section" id="sec2">
+      <div class="sec-2-container">
+        <div class="sec-2-header">
+          <div class="sec-2-content">
+            <h1 class="sec-2-title sensation">Bin Activator</h1>
+            <p class="sec-2-description mplusRound">
+              Bin Activator (also called Bin Discharger) is a cone-shaped device fitted to the outlet of a bin, hopper,
+              or silo. It uses a vibratory motor to impart controlled vibrations, promoting mass flow ensuring all
+              material moves uniformly and preventing blockages like bridging, ratholing, and segregation.
+            </p>
+          </div>
+          <div class="sec-2-prod-img">
+            <img src="./assets/images/bin-product.webp" alt="Bin Activator Product" class="sec-2-image-placeholder" />
+          </div>
+        </div>
+
+        <h2 class="sec-2-benefits-title sensation">Why Use a Bin Activator</h2>
+
+        <div class="sec-2-benefits-grid">
+          <div class="sec-2-benefit-card">
+            <div class="sec-2-benefit-number sensation purple">01</div>
+            <div class="sec-2-benefit-text">
+              <div class="sec-2-benefit-title mplusRound">Eliminates flow disruptions:
+                <span class="sec-2-benefit-description mplusRound">Prevents arches and ratholes that stop material
+                  flow.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sec-2-benefit-card">
+            <div class="sec-2-benefit-number sensation pink">02</div>
+            <div class="sec-2-benefit-text">
+              <div class="sec-2-benefit-title mplusRound">Promotes mass-flow behavior:
+                <span class="sec-2-benefit-description mplusRound">Entire contents flow evenly, ensuring a
+                  first-in-first-out
+                  discharge.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sec-2-benefit-card">
+            <div class="sec-2-benefit-number sensation orange">03</div>
+            <div class="sec-2-benefit-text">
+              <div class="sec-2-benefit-title mplusRound">Reduces segregation:
+                <span class="sec-2-benefit-description mplusRound">Vibration minimizes separation of particle sizes or
+                  densities.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sec-2-benefit-card">
+            <div class="sec-2-benefit-number sensation red">04</div>
+            <div class="sec-2-benefit-text">
+              <div class="sec-2-benefit-title mplusRound">Eliminates flow disruptions:
+                <span class="sec-2-benefit-description mplusRound">Prevents arches and ratholes that stop material flow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- section 3 code -->
+    <section class="section" id="sec3">
+      <div class="section3-holder">
+        <div class="hold1">
+          <div class="hold1-hold">
+            <div class="sec3-card-wrapper">
+              <div class="sec3-card">1. Sizes from 600 – 2500 mm</div>
+            </div>
+            <div class="sec3-card-wrapper">
+              <div class="sec3-card">2. Flexible Sleeve made of FDA approved White EPDM in Single Piece Mould up to size
+                1500mm</div>
+            </div>
+            <div class="sec3-card-wrapper">
+              <div class="sec3-card">3. High quality vibrator motors</div>
+            </div>
+            <div class="sec3-card-wrapper">
+              <div class="sec3-card">4. Available in carbon steel and stainless steel construction</div>
+            </div>
+          </div>
+        </div>
+        <div class="hold2"><img src="./assets/images/arrow_img.svg" alt="" style="transform: rotate(-180deg);"></div>
+        <div class="hold3"><img src="./assets/images/what_we_offer_svg.svg" alt="">
+          <div class="hold3-circle">
+            WHAT WE <br> OFFER
+          </div>
+        </div>
+        <div class="hold4"><img src="./assets/images/arrow_img.svg" alt=""></div>
+        <div class="hold5">
+          <div class=" hold5-hold">
+            <div class="sec3-card-wrapper">
+              <div class="sec3-card">5. Very easy to install at site</div>
+            </div>
+            <div class="sec3-card-wrapper">
+              <div class="sec3-card">6. Easy cleaning feature will be available on request</div>
+            </div>
+            <div class="sec3-card-wrapper">
+              <div class="sec3-card">7. Less maintenance</div>
+            </div>
+            <div class="sec3-card-wrapper">
+              <div class="sec3-card"><a><span style="color: #2387d8;">Option :</span><br>Demountable Bottom Hopper</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- section 4 -->
+    <section class="section" id="sec4">
+      <div class="sec-4-center-content">
+
+        <div class="application-text sensation">APPLICATIONS</div>
+
+        <div class="arrow-container">
+          <img src="./assets/images/sec4/arrow_vertical.svg" alt="" class="vertical-arow">
+        </div>
+
+        <div class="center-text-card mplusRound">
+          <p>Bin Activators eliminate bridging and ratholing, reduce particle segregation and promote mass flow. They
+            are efficient, convenient and economical and attach to any bin or silo whether new or existing</p>
+        </div>
+
+        <div class="block-container">
+
+          <div class="arrow-df">
+            <img src="./assets/images/sec4/left-curve-arrow.svg" alt="" class="img-left">
+            <img src="./assets/images/sec4/right-curve-arrow.svg" alt="" class="img-right">
+          </div>
+        </div>
+
+        <div class="left-right-img-container">
+          <div class="left-side-img">
+            <div class="fill-card"></div>
+            <img src="./assets/images/sec4/ratholing.png" alt="" class="card-img">
+          </div>
+          <div class="right-side-img">
+            <div class="fill-card"></div>
+            <img src="./assets/images/sec4/bridging.png" alt="" class="card-img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- section 5 -->
+    <section class="section" id="sec5">
+      <div class="section5-content">
+        <div class="main-content">
+          <div class="left">
+            <img src="./assets/images/sec5/internalstructure.png" alt="">
+          </div>
+          <div class="right">
+            <div class="right-section3">
+              <div class="right-section3-img">
+                <img src="./assets/images/sec5/Connectorline4.svg" alt="">
+              </div>
+              <div class="right-section5-content">
+                <div>
+                  <p>BA consists of internal cone shaped baffle which is attached to the body rigidly by means
+                    of structural member. The unit is suspended by means of hanger bolts from the bottom of
+                    the hopper or silo
+                  </p>
+                  <p>
+                    BA moves horizontally in response to centrifugal forces generated by unbalance weights
+                    of an attached vibrator. The cone baffle relieves the weight of the material from the
+                    lower section of the bin discharger and acts like a wedge and push the material down to
+                    all directions adjacent to the cone surface.
+                  </p>
+
+                </div>
+
+              </div>
+              <div class="right-section3-top-div">Principle Operations</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- section 6 -->
+    <section class="section" id="sec6">
+      <div class="sec-6-container">
+        <div class="section6-title sensation">
+          Bin Activator Dimensions
+        </div>
+        <div class="section6-content">
+          <div class="holder1">
+            <img src="./assets/images/bin_activator_dimensions.webp" alt="dimensions">
+          </div>
+          <div class="holder2">
+
+            <table class="dimension-table">
+              <thead>
+                <tr>
+                  <th rowspan="2">Model</th>
+                  <th colspan="4">Dimension in mm</th>
+                </tr>
+                <tr>
+                  <th>A</th>
+                  <th>B</th>
+                  <th>C</th>
+                  <th>D</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>BD 600</td>
+                  <td>600</td>
+                  <td>200</td>
+                  <td>400</td>
+                  <td>8</td>
+                </tr>
+                <tr>
+                  <td>BD 900</td>
+                  <td>900</td>
+                  <td>200</td>
+                  <td>540</td>
+                  <td>12</td>
+                </tr>
+                <tr>
+                  <td>BD 1250</td>
+                  <td>1250</td>
+                  <td>250</td>
+                  <td>700</td>
+                  <td>12</td>
+                </tr>
+                <tr>
+                  <td>BD 1500</td>
+                  <td>1500</td>
+                  <td>250</td>
+                  <td>820</td>
+                  <td>12</td>
+                </tr>
+                <tr>
+                  <td>BD 1800</td>
+                  <td>1800</td>
+                  <td>250</td>
+                  <td>990</td>
+                  <td>12</td>
+                </tr>
+                <tr>
+                  <td>BD 2100</td>
+                  <td>2100</td>
+                  <td>250</td>
+                  <td>1125</td>
+                  <td>18</td>
+                </tr>
+                <tr>
+                  <td>BD 2500</td>
+                  <td>2500</td>
+                  <td>300</td>
+                  <td>1300</td>
+                  <td>18</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="section" id="sec7">
+      <img src="./assets/images/360deg.png" alt="" class="img-360-deg">
+      <div id="modelContainer">
+        <!-- <img src="https://placehold.co/600x400/EEE/000?text=Loading%20Model&font=open-sans&" alt="" id="modelPlaceholder"> -->
+        
+      </div>
+      <model-viewer src="./assets/model/bin_activator.glb" id="binModel" disable-ar camera-controls tone-mapping="neutral"
+        poster="./assets/model/poster.webp" shadow-intensity="1" camera-orbit="-2707deg 75deg 34.29m"
+        max-field-of-view="22.98deg" environment-image disable-tap  disable-pan
+        interaction-prompt="none" min-camera-orbit="auto 50deg auto" max-camera-orbit="auto 120deg auto">
+      </model-viewer>
+
+      <div class="model-bottom-buttons">
+        <button class="model-buttons active" id="normalView">Normal</button>
+        <button class="model-buttons" id="functionView">Function</button>
+      </div>
+    </section>
+
+    <section class="section" id="sec8">
+      <div class="section8-title sensation">
+        Flow Types
+      </div>
+      <div class="main-container">
+        <div class="video-outer-container">
+          <video src="./assets/videos/brown.webm" autoplay muted loop></video>
+          <p class="videoText blackText">BRIDGING</p>
+        </div>
+        <div class="video-outer-container">
+          <video src="./assets/videos/grey.webm" autoplay muted loop></video>
+          <p class="videoText blackText">RATHOLING</p>
+        </div>        
+      </div>
+    </section>
+
+    <section class="section" id="sec9">
+      <div class="section8-title sensation">
+        Flow Types
+      </div>
+      <div class="main-container reverse">
+        <div class="video-outer-container">
+          <video src="./assets/videos/sand.webm" autoplay muted loop></video>
+          <p class="videoText whiteText">INCOMPLETE EMPTYING</p>
+        </div>
+        <div class="video-outer-container">
+          <video src="./assets/videos/mixed sand.webm" autoplay muted loop></video>
+          <p class="videoText whiteText">SEGREGATION</p>
+        </div>        
+      </div>
+    </section>
+
+    <!-- <section class="section" id="sec10"></section> -->
+    <!-- <section class="section" id="sec11"></section>
+    <section class="section" id="sec12"></section>
+    <section class="section" id="sec13"></section>
+    <section class="section" id="sec14"></section>
+    <section class="section" id="sec15"></section>
+    <section class="section" id="sec16"></section>
+    <section class="section" id="sec17"></section> -->
+  </div>
+  </div>
+
+
+  <!-- This div creates the scroll length -->
+  <div class="sections-wrapper"></div>
+
+  <!-- grid image background -->
+  <div class="section-img-bg" id="secBgImage"></div>
+
+  <div class="cursor">
+    <div class="cursor-inner"></div>
+  </div>
+
+  <div class="preloaderBg" id="globalPreloader" onload="preloader()">
+    <div class="preloader"></div>
+    <div class="preloader2"></div>
+  </div>
+
+  <audio id="bgm" src="./assets/audio/bgm_2.mp3" autoplay loop></audio>
+
+  <script src="./scripts/gsap.min.js"></script>
+  <script src="./scripts/ScrollTrigger.min.js"></script>
+  <script src="./scripts/ScrollToPlugin.min.js"></script>
+  <script src="./scripts/ScrollSmoother.min.js"></script>
+  <script type="module" src="./scripts/model-viewer.min.js"></script>
+  <script src="./scripts/script.js"></script>
+</body>
+
+</html>
